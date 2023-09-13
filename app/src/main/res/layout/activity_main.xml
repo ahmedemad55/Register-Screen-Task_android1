@@ -60,13 +60,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:padding="10dp"
             android:background="#C9C1C1"
             android:drawableRight="@drawable/hide_icon"
             android:hint="Enter your password"
             android:inputType="textPassword"
-
-            />
+            android:padding="10dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -112,14 +110,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/white"
-            android:src="@drawable/facebook_icon"
+            android:src="@drawable/facebook_icon"></ImageButton>
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/white"
-            android:src="@drawable/google_icon"
+            android:src="@drawable/google_icon"></ImageButton>
 
         <ImageButton
             android:layout_width="0dp"
